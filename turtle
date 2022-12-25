@@ -1,0 +1,50 @@
+import turtle
+
+screen = turtle.Screen()
+screenTk = screen.getcanvas().winfo_toplevel()
+screenTk.attributes("-fullscreen", True)
+
+a = turtle.Turtle()
+
+a.penup()
+
+a.goto(-200,250)
+a.write("WELCOME TO ",font=("Verdana",40, "normal"))
+a.penup()
+a.goto(-550,175)
+a.pendown()
+a.width(5)
+a.write("SASS DISCOUNT MANAGEMENT SYSTEM",font=("Castellar",40, "normal"))
+
+a.penup()
+a.goto(-600,150)
+a.pendown()
+a.width(5)
+a.speed(100)
+a.forward(1200)
+
+a.penup()
+a.goto(-800,150)
+a.pendown()
+
+a.penup()
+a.goto(-600,-50)
+
+a.width(0)
+a.write("LOADING",font=("Verdana",20, "normal"))
+
+a.penup()
+a.goto(-600,-70)
+a.pendown()
+
+a.width(2)
+a.speed(1)
+a.forward(1200)
+
+
+a.hideturtle()
+
+turtle.done()
+
+
+
